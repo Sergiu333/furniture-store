@@ -18,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+          <div className={"underline underline-offset-1"}>tailwind is work</div>
       </header>
     </div>
   );
