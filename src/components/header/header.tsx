@@ -1,23 +1,44 @@
 import React from 'react';
 // import logo from './logo.svg';
-import './header.css';
+import './header.scss';
 
 function Header() {
     return (
-        <div className={"-header w-full fixed top-0"}>
-            <div className={"-list"}>LOGO</div>
-            <div>
-                <div className={"-list"}>Button_1</div>
-                <div className={"-list"}>Button_2</div>
-                <div className={"-list"}>Button_3</div>
-                <div className={"-list"}>
-                    <input className="absolute right-10 h-8 shadow appearance-none bg-transparent text-white border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Search"/>
-                </div>
-                <div className={"-list"}>
-                    <img className={"img absolute right-2"} src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Search_Icon.svg/1024px-Search_Icon.svg.png" alt=""/>
-                </div>
+        <nav>
+            <div className="container">
+                <ul className="nav-list">
+                    <li className="nav-logo">
+                        <div className="logo">
+                            <p>LOGO</p>
+                        </div>
+                        <button className="btn" id="nav-toggle">
+                            <i className="fa fa-bars"></i>
+                        </button>
+                    </li>
+
+                    <li className="nav-link">About<i className="fa fa-chevron-up"></i>
+                        <ul className="nav-drop">
+                            <li>Our Team</li>
+                            <li>Our Process</li>
+                            <li>History</li>
+                        </ul>
+                    </li>
+
+                    <li className="nav-link">Work<i className="fa fa-chevron-up"></i>
+                        <ul className="nav-drop">
+                            <li>Portfolio</li>
+                            <li>Showcase</li>
+                        </ul>
+                    </li>
+
+                    <li className="nav-link">Contact</li>
+                    <li className="nav-item">
+                        <button className="btn">Sign in</button>
+                    </li>
+
+                </ul>
             </div>
-        </div>
+        </nav>
     );
 }
 
