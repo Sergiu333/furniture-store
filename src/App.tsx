@@ -2,12 +2,15 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Header from "./components/header/header";
+import Footer from "./components/footer/footer";
+import Content from "./components/content/content";
 
 function App() {
   return (
     <div className="App">
         <Header/>
-        <img className={"w-full h-auto"} src="" alt=""/>
+        <Content/>
+        <Footer/>
     </div>
   );
 }
