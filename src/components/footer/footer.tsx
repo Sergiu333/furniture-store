@@ -1,10 +1,10 @@
 import React from 'react';
 function Footer() {
     return (
-        <footer className="text-center bg-gray-900 text-white bottom-0">
-            <div className="container px-6 pt-6">
+        <footer className="text-center bg-gray-900 text-white bottom-0 ">
+            <div className="container mx-auto px-6 pt-6">
                 <div className="flex justify-center mb-6">
-                    <a href="https://www.facebook.com/rapidmobil.md" type="button"
+                    <a href="https://www.facebook.com/" type="button"
                        className="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
                         <svg aria-hidden="true"
                              focusable="false"
@@ -21,7 +21,7 @@ function Footer() {
     />
                         </svg>
                     </a>
-                    <a href="https://www.instagram.com/rapidmobil.md/" type="button"
+                    <a href="https://www.instagram.com/" type="button"
                        className="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
                         <svg aria-hidden="true"
                              focusable="false"
@@ -38,7 +38,7 @@ function Footer() {
     />
                         </svg>
                     </a>
-                    <a href="https://ok.ru/profile/554841433706" type="button"
+                    <a href="https://ok.ru/profile" type="button"
                        className="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
                         <i className="fab fa-odnoklassniki" style={{marginTop: '8px'}}/>
                     </a>
