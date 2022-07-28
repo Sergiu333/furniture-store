@@ -22,5 +22,10 @@
   },
   "include": [
     "src"
+  ],
+  "styles": [
+    "~slick-carousel/slick/slick.css",
+    "~slick-carousel/slick/slick-theme.css",
+    "src/styles.css"
   ]
 }

@@ -1,11 +1,9 @@
 import React from 'react';
-// import logo from './logo.svg';
 import './header.scss';
-
 function Header() {
     return (
         <nav>
-            <div className="container">
+            <div className="container mx-auto">
                 <ul className="nav-list">
                     <li className="nav-logo">
                         <div className="logo">
